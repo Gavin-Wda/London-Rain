@@ -20,6 +20,8 @@ Model and Evaluation
 
 In building the XGBoost model a GridSearch was used over a set of parameters, including max_depth, min_child_weight, learning_rate, and n_estimators. The best parameters found were 200 boosting rounds, max depth of four, minimum child weight of four, and a learning rate of 0.05. It was found that the top three most important factors indicating the presence of rain or not on a given day were pressure, max temperature, and sun hours. The model, on test data, received an AOC score of 74.65% and accuracy score of 74.58%. 
 
+<img src="https://github.com/Gavin-Wda/London-Rain/blob/main/feature%20importance.png" alt="XGBoost Feature Importance Chart">
+
 Conclusion 
 
 This model can be useful in determining the presence of rain with fairly good results, meaning it can be a helpful tool for me when I go on my trip in August! Going forward, it may be beneficial to do some feature engineering like day-temp range and potentially introduce other weather related metrics such as wind speed and humidity to improve scores. I also believe that though this model is very specific to my scenario, I believe that this data could be paired with other date specific datasets like vehicle accidents or tube use to generate more applicable predictive models. 
