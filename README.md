@@ -4,7 +4,7 @@
 This repository, being my first project, uses London weather data from 1979 to 2021 in order to predict the presence of rain on a given day. 
 
 
-Overview 
+Overview
 
 The goal of this project was to create two different tree-based models to predict if it would rain or not in London. The data used was provided by the European Climate Assessment (ECA), covering weather data from 1979 to 2021, recorded by a weather station near Heathrow Airport. The final model was an XGBoost Classifier with a 74.58% Accuracy, 74.65% AUC, and 73.59% f1 score on unseen test data. Based on the model, air pressure, max temperature, and sun hours were the most influential features in determining rain or no rain. 
 
